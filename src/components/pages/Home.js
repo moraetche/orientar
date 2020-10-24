@@ -5,6 +5,7 @@ export class Home extends Component {
         return (
             <div>
                 Hola soy una home!
+                buenas!
             </div>
         )
     }
