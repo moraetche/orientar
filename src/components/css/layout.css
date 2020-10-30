@@ -12,6 +12,7 @@
 
 /* FOOTER */
 .footer{
+  display: none;
   height: 50px;
   background-color: #081B37;
   position: fixed;

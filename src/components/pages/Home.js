@@ -40,7 +40,7 @@ export class Home extends Component {
         <img src={require("../assets/medicinaimg.jpg")} alt= "imagen medicina" className= "medicinaimg"/>
         <div class="caption left-align">
           <h3>Medicina y asistenciales</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
 
@@ -48,7 +48,7 @@ export class Home extends Component {
         <img src={require("../assets/csimg.jpg")} alt= "imagen cs" className= "csimg"/>
         <div class="caption left-align">
           <h3>Ciencias sociales</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
 
@@ -56,7 +56,7 @@ export class Home extends Component {
         <img src={require("../assets/cnimg.jpg")} alt= "imagen cs" className= "cnimg"/>
         <div class="caption left-align">
           <h3>Ciencias naturales</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
 
@@ -75,6 +75,7 @@ export class Home extends Component {
           <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
+      
       <li>
         <img src={require("../assets/arteimg.jpg")} alt= "imagen arte" className= "arteimg"/>
         <div class="caption left-align">
@@ -90,6 +91,8 @@ export class Home extends Component {
           <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
+
+      */RESOLVER EL BUG RARO DE ARQUITECTURA AAA NO SE UQE HACER AYUDA
       
     </ul>
   </div>
