@@ -83,17 +83,15 @@ export class Home extends Component {
           <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
-
+      
       <li>
         <img src={require("../assets/arquitecturaimg.jpg")} alt= "imagen arquitectura" className= "arquitecturaimg"/>
-        <div class="Arquitectura">
+        <div class="caption left-align">
           <h3>Arquitectura</h3>
           <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
         </div>
       </li>
 
-      */RESOLVER EL BUG RARO DE ARQUITECTURA AAA NO SE UQE HACER AYUDA
-      
     </ul>
   </div>
   </div>
