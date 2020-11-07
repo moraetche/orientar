@@ -8,12 +8,23 @@ export class Navbar extends Component {
     return (
       <>
         <ul id="dropdown1" className="dropdown-content">
-          <li><NavLink to="#!">one</NavLink></li>
-          <li><NavLink to="#!">two</NavLink></li>
+          <li><NavLink to="/ingenieria">Ingeniería</NavLink></li>
           <li className="divider"></li>
-          <li><NavLink to="#!">three</NavLink></li>
+          <li><NavLink to="/medicina">Medicina y asistenciales</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/sociales">Ciencias sociales</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/naturales">Ciencias naturales</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/exactas">Ciencias exactas</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/economicas">Ciencias económicas</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/artes">Artes</NavLink></li>
+          <li className="divider"></li>
+          <li><NavLink to="/arquitectura">Arquitectura</NavLink></li>
+          <li className="divider"></li>
         </ul>
-
         <nav className="navbar">
           <div className="nav-wrapper">
             <NavLink to="/" className="brand-logo">Orientar</NavLink>

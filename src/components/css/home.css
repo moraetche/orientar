@@ -6,38 +6,6 @@
   box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
 } 
 
-.arquitecturaimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.arteimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.ceimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.ceximg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.cnimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.csimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.ingenieriaimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
-.medicinaimg{
-  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-}
-
 .banner{
     font-weight: 300;
 }
@@ -60,7 +28,14 @@
   .banner{
     font-size: 40px;
   }
-  .ingenieriaimg{
-    box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
-  }
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: #081B37;
+}
+.sl-home{
+  height: 411px!important;
+}
+.textodeabajo{
+  color: white;
 }

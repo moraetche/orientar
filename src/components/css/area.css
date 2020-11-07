@@ -1,0 +1,24 @@
+.fondo-img{
+  box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
+}
+.img-area-wrapper img{
+    box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63)!important;
+}
+.area-img-wrapper{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.descripcion-area{
+  width: 60%!important;
+}
+
+.areas .slider .slides li .caption{
+  top: 10%!important;
+}
