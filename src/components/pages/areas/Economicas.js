@@ -25,7 +25,7 @@ export class Ingenieria extends Component {
                 <div class="slider slider-home sl-home">
                     <ul class="slides slider-home">
                         <li>
-                            <img src={this.state.imagen} alt="imagen Ingenieria" className="img-home" />
+                            <img src={this.state.imagen} alt="imagen Economicas" className="img-home" />
 
                             <div class="caption left-align">
                                 <h3 className="banner">{this.state.titulo}</h3>

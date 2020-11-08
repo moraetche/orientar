@@ -24,6 +24,7 @@ export class Navbar extends Component {
           <li className="divider"></li>
           <li><NavLink to="/arquitectura">Arquitectura</NavLink></li>
           <li className="divider"></li>
+          <li><NavLink to="/humanidades">Humanidades</NavLink></li>
         </ul>
         <nav className="navbar">
           <div className="nav-wrapper">

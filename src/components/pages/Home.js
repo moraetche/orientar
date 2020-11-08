@@ -108,6 +108,17 @@ export class Home extends Component {
                                 </Link>
                             </div>
                         </li>
+
+                        <li>
+                            <img src={require("../assets/humanidadesimg.jpg")} alt="imagen humanidades" className="sombrita" />
+                            <div class="caption left-align">
+                                <h3>Humanidades</h3>
+                                <Link to="/humanidades">
+                                <h5 class="textodeabajo">Haz click para conocer las carreras.</h5>
+                                </Link>
+                            </div>
+                        </li>
+
                     </ul>
                 </div>
                 <br/>
