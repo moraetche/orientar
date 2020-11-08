@@ -7,7 +7,7 @@ export class Navbar extends Component {
   render() {
     return (
       <>
-        <ul id="dropdown1" className="dropdown-content">
+        <ul id="dropdown1" className="dropdown-content navbar-orientar">
           <li><NavLink to="/ingenieria">Ingeniería</NavLink></li>
           <li className="divider"></li>
           <li><NavLink to="/medicina">Medicina y asistenciales</NavLink></li>

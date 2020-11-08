@@ -22,3 +22,16 @@
 .areas .slider .slides li .caption{
   top: 10%!important;
 }
+
+.imagen-area{
+  border-radius: 10px;
+}
+
+.titulo-carrera{
+  margin-top: 13px;
+  color: black;
+}
+.titulo-carrera:hover{
+  color: #505050;
+  /* text-decoration: underline; */
+}

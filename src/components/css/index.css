@@ -9,3 +9,6 @@ br, hr{
 .sombrita{
   box-shadow: inset 0 0 0 1000px rgba(1, 16, 40, 0.63);
 }
+.navbar-orientar{
+  width: 150px!important;
+}
