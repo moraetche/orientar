@@ -5,9 +5,9 @@ import M from 'materialize-css'
 import { Link } from 'react-router-dom'
 export class Ingenieria extends Component {
     state = {
-        titulo: 'Ingenieria',
-        id: 'ingenieria',
-        imagen: require("../../assets/ingenieriaimg.jpg"),
+        titulo: 'Humanidades',
+        id: 'humanidades',
+        imagen: require("../../assets/humanidadesimg.jpg"),
         carrera1: {
             id: 'agronoma',
             nombre: 'Ingenieria agrónoma',
