@@ -1,29 +1,24 @@
 
 import React, { Component } from 'react'
-
+import '../css/carreras.css'
+// import M from 'materialize-css'
 export class Carrera extends Component {
   state = {
+    titulo: null,
 
   }
   chequearInformacion = () => {
-    switch (this.props.match.params.carrera) {
-      case 'value':
-        
-        break;
-    
-      default:
-        break;
-    }
+    //aca agarrariamos la info de la base de datos y despues la guardamos en el state
   }
   componentDidMount = () => {
     console.log("PROPS:", this.props)
   }
   render() {
     return (
-      <div className="center">
-        <h1> ARCHIVO CARRERA.JS </h1>
-            Area: {this.props.match.params.area} <br />
-            Carrera: {this.props.match.params.carrera}
+      <div className="container">
+        <h1 className="center"> ARCHIVO CARRERA.JS </h1>
+        <p>Area: {this.props.match.params.area}</p>
+        <p>Carrera: {this.props.match.params.carrera}</p>
       </div>
     )
   }

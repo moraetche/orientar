@@ -14,7 +14,7 @@ export class Ingenieria extends Component {
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
             descripcion: 'La arquitectura es el arte de gastar el espacio. -Philip Johnson (Arquitecto, Historiador de arte)'
         },
-        
+
     }
     componentDidMount = () => {
         // let id = this.props.match.path
@@ -69,18 +69,8 @@ export class Ingenieria extends Component {
                         </div>
                     </div>
                     <br />
-                        <div className="col s6">
-                            <Link to={this.props.match.path + "/" + this.state.carrera2.id}>
-                                <h3 className="left-align titulo-carrera">
-                                    {this.state.carrera2.nombre}
-                                </h3>
-                            </Link>
-                            <h5 className="descripcion-carrera">{this.state.carrera2.descripcion}</h5>
-                        </div>
-                    </div>
-                    <br />
                 </div>
-
+                <br />
             </div>
         )
     }
