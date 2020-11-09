@@ -10,7 +10,7 @@ export class Ingenieria extends Component {
         imagen: require("../../assets/arquitecturaimg.jpg"),
         carrera1: {
             id: 'diseñador',
-            nombre: 'Diseñador/a Gráfico/a',
+            nombre: 'Diseño Grafico',
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
             descripcion: 'La arquitectura es el arte de gastar el espacio. -Philip Johnson (Arquitecto, Historiador de arte)'
         },
