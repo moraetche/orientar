@@ -1,8 +1,9 @@
 /* NAVBAR */
 .navbar{
-  background: #081B37;
-  color: #ffffff; 
+  background-color: #081B37;
+  text-decoration-color: #ffffff;
 }
+
 .brand-logo{
   margin-left: 10vw;
 }
