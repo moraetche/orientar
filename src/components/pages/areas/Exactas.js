@@ -5,21 +5,16 @@ import M from 'materialize-css'
 import { Link } from 'react-router-dom'
 export class Ingenieria extends Component {
     state = {
-        titulo: 'Exactas',
+        titulo: 'Ciencias Exactas',
         id: 'exactas',
         imagen: require("../../assets/ceximg.jpg"),
         carrera1: {
-            id: 'agronoma',
-            nombre: 'Ingenieria agrónoma',
+            id: 'fisica',
+            nombre: 'Ciencia Fisica',
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
-        carrera2: {
-            id: 'industrial',
-            nombre: 'Ingenieria industrial',
-            imagen: require('../../assets/ingenieria/industrialimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
-        },
+        
     }
     componentDidMount = () => {
         // let id = this.props.match.path
@@ -77,18 +72,11 @@ export class Ingenieria extends Component {
                     <div className="row">
                         <div className="col s6">
                             <div className="left">
-                                <Link to={this.props.match.path + "/" + this.state.carrera2.id}>
-                                    <img src={this.state.carrera2.imagen} alt="" className="responsive-img imagen-area z-depth-4 hoverable" />
-                                </Link>
+                                
                             </div>
                         </div>
                         <div className="col s6">
-                            <Link to={this.props.match.path + "/" + this.state.carrera2.id}>
-                                <h3 className="left-align titulo-carrera">
-                                    {this.state.carrera2.nombre}
-                                </h3>
-                            </Link>
-                            <h5 className="descripcion-carrera">{this.state.carrera2.descripcion}</h5>
+                            
                         </div>
                     </div>
                     <br />

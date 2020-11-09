@@ -15,8 +15,8 @@ export class Ingenieria extends Component {
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
         carrera2: {
-            id: 'industrial',
-            nombre: 'Ingenieria industrial',
+            id: 'veterinaria',
+            nombre: 'Ciencias Veterinarias',
             imagen: require('../../assets/ingenieria/industrialimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
