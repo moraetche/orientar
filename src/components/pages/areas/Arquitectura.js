@@ -12,7 +12,7 @@ export class Ingenieria extends Component {
             id: 'diseñador',
             nombre: 'Diseño Grafico',
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
-            descripcion: 'La arquitectura es el arte de gastar el espacio. -Philip Johnson (Arquitecto, Historiador de arte)'
+            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
 
     }
