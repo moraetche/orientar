@@ -46,7 +46,7 @@ export class Ingenieria extends Component {
                             <img src={this.state.imagen} alt="imagen Ingenieria" className="img-home" />
                             <div class="caption left-align">
                                 <h3 className="banner">{this.state.titulo}</h3>
-                                <h5 class="descripcion-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+                                <h5 class="descripcion-area">Equipado con sus cinco sentidos, el hombre explora el universo que lo rodea y a sus aventuras las llama ciencia -Edwin Hubble (Astrónomo, Físico)
                                 </h5>
                             </div>
                         </li>
