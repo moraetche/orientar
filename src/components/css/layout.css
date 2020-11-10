@@ -9,7 +9,7 @@ ul li{
   
   background-color:#081B37;
 }
-ul li href{
+.dropdown-content li>a, .dropdown-content li>span{
   color: #ffffff;
 
 }
