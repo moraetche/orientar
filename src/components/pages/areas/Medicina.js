@@ -9,21 +9,27 @@ export class Ingenieria extends Component {
         id: 'medicina',
         imagen: require("../../assets/medicinaimg.jpg"),
         carrera1: {
-            id: 'agronoma',
-            nombre: 'Ingenieria agrónoma',
-            imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
+            id: 'Ciencias veterinarias',
+            nombre: 'Ciencias veterinarias',
+            imagen: require('../../assets/medicina/veterinariasimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
         carrera2: {
-            id: 'industrial',
-            nombre: 'Ingenieria industrial',
-            imagen: require('../../assets/ingenieria/industrialimg.jpg'),
+            id: 'Bioquímica',
+            nombre: 'Bioquímica',
+            imagen: require('../../assets/medicina/bioquimicaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
         carrera3: {
-            id: 'industrial',
-            nombre: 'Ingenieria industrial',
-            imagen: require('../../assets/ingenieria/industrialimg.jpg'),
+            id: 'Medicina',
+            nombre: 'Medicina',
+            imagen: require('../../assets/medicina/medicoimg.jpg'),
+            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+        },
+        carrera4: {
+            id: 'Odontología',
+            nombre: 'Odontología',
+            imagen: require('../../assets/medicina/odontologiaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
     }
@@ -117,6 +123,25 @@ export class Ingenieria extends Component {
                                 </Link>
 
                             </div>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div className="row">
+                        <div className="col s6">
+                            <div className="left">
+                                <Link to={this.props.match.path + "/" + this.state.carrera4.id}>
+                                    <img src={this.state.carrera4.imagen} alt="" className="responsive-img imagen-area z-depth-4 hoverable" />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col s6">
+                            <Link to={this.props.match.path + "/" + this.state.carrera4.id}>
+                                <h3 className="left-align titulo-carrera">
+                                    {this.state.carrera4.nombre}
+                                </h3>
+                            </Link>
+                            <h5 className="descripcion-carrera">{this.state.carrera4.descripcion}</h5>
                         </div>
                     </div>
                     <br />

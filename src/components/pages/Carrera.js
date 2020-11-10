@@ -16,7 +16,8 @@ export class Carrera extends Component {
   render() {
     return (
       <div className="container">
-        <h1>{this.props.match.params.carrera}</h1>
+        <h2>{this.props.match.params.carrera}</h2>
+         
       </div>
     )
   }

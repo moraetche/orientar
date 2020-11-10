@@ -9,14 +9,14 @@ export class Ingenieria extends Component {
         id: 'sociales',
         imagen: require("../../assets/csimg.jpg"),
         carrera1: {
-            id: 'abogacia',
-            nombre: 'Abogacia',
+            id: 'Abogacía',
+            nombre: 'Abogacía',
             imagen: require('../../assets/sociales/abogaciaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
         carrera2: {
-            id: 'politicas',
-            nombre: 'Ciencias Politicas',
+            id: 'Ciencias Políticas',
+            nombre: 'Ciencias Políticas',
             imagen: require('../../assets/sociales/politicasimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },

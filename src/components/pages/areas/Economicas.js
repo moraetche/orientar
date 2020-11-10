@@ -9,7 +9,7 @@ export class Ingenieria extends Component {
         id: 'economicas',
         imagen: require("../../assets/ceimg.jpg"),
         carrera1: {
-            id: 'economía',
+            id: 'Licenciatura en economía',
             nombre: 'Licenciatura en economía',
             imagen: require('../../assets/economicas/economiaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
