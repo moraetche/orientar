@@ -94,6 +94,26 @@ export class Ingenieria extends Component {
                         </div>
                     </div>
                     <br />
+                    <br />
+                    <div className="row ">
+                        <div className="col s6">
+                            <Link to={this.props.match.path + "/" + this.state.carrera1.id}>
+                                <h3 className="left-align titulo-carrera">
+                                    {this.state.carrera1.nombre}
+                                </h3>
+                            </Link>
+                            <h5 className="descripcion-carrera">{this.state.carrera1.descripcion}</h5>
+                        </div>
+                        <div className="col s6">
+                            <div className="left">
+                                <Link to={this.props.match.path + "/" + this.state.carrera1.id}>
+                                    <img src={this.state.carrera1.imagen} alt="" className="responsive-img imagen-area z-depth-4 hoverable" />
+                                </Link>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br />
                 </div>
 
             </div>
