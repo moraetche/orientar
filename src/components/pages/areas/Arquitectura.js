@@ -11,7 +11,7 @@ export class Ingenieria extends Component {
         carrera1: {
             id: 'diseñador',
             nombre: 'Diseño Grafico',
-            imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
+            imagen: require('../../assets/arquitectura/diseñograficoimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
 
