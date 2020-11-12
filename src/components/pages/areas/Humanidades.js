@@ -9,7 +9,7 @@ export class Humanidades extends Component {
         id: 'humanidades',
         imagen: require("../../assets/humanidadesimg.jpg"),
         carrera1: {
-            id: 'Filosofa',
+            id: 'Filosofía',
             nombre: 'Filosofía',
             imagen: require('../../assets/humanidades/filosofiaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'

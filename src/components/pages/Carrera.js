@@ -17,7 +17,7 @@ export class Carrera extends Component {
     return (
       <div className="container">
         <h2>{this.props.match.params.carrera}</h2>
-         
+        
       </div>
     )
   }

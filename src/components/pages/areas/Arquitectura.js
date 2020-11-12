@@ -9,8 +9,8 @@ export class Ingenieria extends Component {
         id: 'arquitectura',
         imagen: require("../../assets/arquitecturaimg.jpg"),
         carrera1: {
-            id: 'Diseño gráfico',
-            nombre: 'Diseño Grafico',
+            id: 'Diseño Gráfico',
+            nombre: 'Diseño Gráfico',
             imagen: require('../../assets/arquitectura/diseñograficoimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
@@ -41,8 +41,7 @@ export class Ingenieria extends Component {
                             <img src={this.state.imagen} alt="imagen Ingenieria" className="img-home" />
                             <div class="caption left-align">
                                 <h3 className="banner">{this.state.titulo}</h3>
-                                <h5 class="descripcion-area">Todo es diseño, y la calidad del diseño afecta la calidad de nuestras vidas. -Norman Foster (Arquitecto)
-.
+                                <h5 class="descripcion-area">Todo es diseño, y la calidad del diseño afecta la calidad de nuestras vidas. -Norman Foster (Arquitecto).
                                 </h5>
                             </div>
                         </li>

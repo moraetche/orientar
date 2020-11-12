@@ -9,8 +9,8 @@ export class Ingenieria extends Component {
         id: 'exactas',
         imagen: require("../../assets/ceximg.jpg"),
         carrera1: {
-            id: 'Ciencia fisica',
-            nombre: 'Ciencia fisica',
+            id: 'Ciencias fisicas',
+            nombre: 'Ciencias fisicas',
             imagen: require('../../assets/exactas/fisicaimg.jpg'),
             descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
         },
