@@ -59,6 +59,11 @@ export class Ingagronoma extends Component {
 							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
 						</p>
 					</div>
+          <h6> Donde contactar: </h6>
+            <li className= 'contactos'>Item 1</li>
+						<li className= 'contactos'>Item 2</li>
+						<li className= 'contactos'>Item 3</li>
+						<li className= 'contactos'>Item 4</li>
 				</div>
 			</div>
 		);
