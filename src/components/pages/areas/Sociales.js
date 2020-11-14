@@ -12,13 +12,13 @@ export class Ingenieria extends Component {
             id: 'Abogacía',
             nombre: 'Abogacía',
             imagen: require('../../assets/sociales/abogaciaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'Un abogado es el profesional en Derecho que se dedica a brindar asesoría jurídica o que defiende o representa a una de las partes en un proceso judicial.'
         },
         carrera2: {
             id: 'Ciencias Políticas',
             nombre: 'Ciencias Políticas',
             imagen: require('../../assets/sociales/politicasimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La Ciencia Política es una ciencia social que se aboca al estudio y el análisis de las relaciones de poder, implícitas o explícitas, entre la autoridad y los individuos, los grupos, y las organizaciones; y las estructuras, procedimientos y procesos a través de los cuales se llega a las decisiones políticas y se desarrollan las interacciones entre los diferentes sistemas políticos.'
         },
     }
     componentDidMount = () => {

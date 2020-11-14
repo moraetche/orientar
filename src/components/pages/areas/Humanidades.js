@@ -12,13 +12,13 @@ export class Humanidades extends Component {
             id: 'Filosofía',
             nombre: 'Filosofía',
             imagen: require('../../assets/humanidades/filosofiaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La Filosofía es una disciplina que estudia y reflexiona constantemente sobre los enigmas constitutivos a la esencia del ser humano.'
         },
         carrera2: {
             id: 'Psicología',
             nombre: 'Psicología',
             imagen: require('../../assets/humanidades/psicologiaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La carrera de Psicología forma profesionales capaces de estudiar, comprender y analizar los actos,conductas y procesos mentales normales y anormales del ser humano por medio de la observación de sus acciones, reacciones, decisiones, comportamiento verbal, movimiento corporal y otros eventos observables así como mediante la aplicación de instrumentos científicos, para llegar a conclusiones y brindar diagnósticos y soluciones a problemas.'
         },
         
     }

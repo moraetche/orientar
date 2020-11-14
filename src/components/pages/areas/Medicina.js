@@ -12,25 +12,25 @@ export class Ingenieria extends Component {
             id: 'Ciencias veterinarias',
             nombre: 'Ciencias veterinarias',
             imagen: require('../../assets/medicina/veterinariasimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'Ciencia médica que se dedica a prevenir, diagnosticar y curar las enfermedades de los animales. Así como también heridas y lesiones provocadas por diversos factores.'
         },
         carrera2: {
             id: 'Bioquímica',
             nombre: 'Bioquímica',
             imagen: require('../../assets/medicina/bioquimicaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La Bioquímica es una ciencia básica dedicada al estudio de los constituyentes químicos de los seres vivos y a las transformaciones asociadas en el curso de la actividad vital.'
         },
         carrera3: {
             id: 'Medicina',
             nombre: 'Medicina',
             imagen: require('../../assets/medicina/medicoimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'Ciencia que permite prevenir y curar las enfermedades del cuerpo humano.'
         },
         carrera4: {
             id: 'Odontología',
             nombre: 'Odontología',
             imagen: require('../../assets/medicina/odontologiaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La odontología también denominada estomatología, es una especialidad de la Medicina que se ocupa de la prevención, el diagnóstico y tratamiento de las enfermedades que afectan a cualquier parte de la estructura mandibular.'
         },
     }
     componentDidMount = () => {

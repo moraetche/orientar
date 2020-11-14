@@ -12,7 +12,7 @@ export class Ingenieria extends Component {
             id: 'Ciencias fisicas',
             nombre: 'Ciencias fisicas',
             imagen: require('../../assets/exactas/fisicaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'La Física tiene como objetivo principal comprender, teorizar y experimentar sobre el universo y los diferentes fenómenos que en él se manifiestan.'
         },
         
     }

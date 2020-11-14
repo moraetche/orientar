@@ -12,13 +12,13 @@ export class Ingenieria extends Component {
             id: 'Ingenieria agrónoma',
             nombre: 'Ingenieria agrónoma',
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'El ingeniero agrónomo es el profesional de la ingeniería y la tecnología encargado de manejar los recursos naturales de manera racional para desarrollar el sector agropecuario, el medio rural y la industria agroalimentaria. Ellos hacen posible que los agricultores y los ganaderos trabajen de un modo más eficiente'
         },
         carrera2: {
             id: 'Ciencias Veterinarias',
             nombre: 'Ciencias Veterinarias',
             imagen: require('../../assets/naturales/veterinariasimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'Ciencia médica que se dedica a prevenir, diagnosticar y curar las enfermedades de los animales. Así como también heridas y lesiones provocadas por diversos factores.'
         },
     }
     componentDidMount = () => {

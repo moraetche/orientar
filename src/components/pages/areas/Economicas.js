@@ -12,7 +12,7 @@ export class Ingenieria extends Component {
             id: 'Licenciatura en economía',
             nombre: 'Licenciatura en economía',
             imagen: require('../../assets/economicas/economiaimg.jpg'),
-            descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus deleniti nihil tempore, nisi odio veniam voluptates facere? Nesciunt dolorum consectetur nihil molestiae iste sed velit. Culpa, molestias! Culpa, vitae.'
+            descripcion: 'El Licenciado en Economía diseña e implementa políticas económicas, analiza el comportamiento de las variables macroeconómicas, evalúa y toma decisiones en los órganos ejecutivos de gobierno en temas económicos, como la elaboración del presupuesto de gobierno, finanzas del Estado, análisis de cuentas nacionales, estadísticas básicas, comercio exterior y tarifas.'
         },
         
     }
