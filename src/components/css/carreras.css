@@ -1,0 +1,14 @@
+.circle {
+	width: 20px;
+	height: 20px;
+	background-color: #ccc;
+	display: inline-block;
+}
+.punteo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.punteo p {
+	margin-left: 10px;
+}
