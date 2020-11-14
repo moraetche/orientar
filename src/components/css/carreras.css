@@ -10,5 +10,20 @@
 	align-items: center;
 }
 .punteo p {
-	margin-left: 10px;
+	font-size: 20px;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+.imgcarreras{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.opiniones{
+  color: rgb(29, 29, 29)
+}
+
+.lista-de-info{
+  font-size: 25px;
 }

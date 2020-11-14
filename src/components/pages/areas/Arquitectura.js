@@ -9,7 +9,7 @@ export class Ingenieria extends Component {
         id: 'arquitectura',
         imagen: require("../../assets/arquitecturaimg.jpg"),
         carrera1: {
-            id: 'Diseño Gráfico',
+            id: 'Diseniografico',
             nombre: 'Diseño Gráfico',
             imagen: require('../../assets/arquitectura/diseñograficoimg.jpg'),
             descripcion: 'El diseño gráfico consiste en proyectar comunicaciones visuales destinadas a transmitir mensajes específicos a grupos sociales, con objetivos determinados. Esta actividad ayuda a optimizar las comunicaciones gráficas.'

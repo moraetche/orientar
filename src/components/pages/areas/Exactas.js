@@ -9,7 +9,7 @@ export class Ingenieria extends Component {
         id: 'exactas',
         imagen: require("../../assets/ceximg.jpg"),
         carrera1: {
-            id: 'Ciencias fisicas',
+            id: 'Csfisicas',
             nombre: 'Ciencias fisicas',
             imagen: require('../../assets/exactas/fisicaimg.jpg'),
             descripcion: 'La Física tiene como objetivo principal comprender, teorizar y experimentar sobre el universo y los diferentes fenómenos que en él se manifiestan.'

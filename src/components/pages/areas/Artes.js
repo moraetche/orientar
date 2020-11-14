@@ -9,7 +9,7 @@ export class Ingenieria extends Component {
         id: 'artes',
         imagen: require("../../assets/arteimg.jpg"),
         carrera1: {
-            id: 'Diseño Gráfico',
+            id: 'Diseniografico',
             nombre: 'Diseño Grafico',
             imagen: require('../../assets/artes/diseñograficoimg.jpg'),
             descripcion: 'El diseño gráfico consiste en proyectar comunicaciones visuales destinadas a transmitir mensajes específicos a grupos sociales, con objetivos determinados. Esta actividad ayuda a optimizar las comunicaciones gráficas.'
@@ -54,7 +54,7 @@ export class Ingenieria extends Component {
                         <div className="col s6">
                         <Link to={this.props.match.path + "/" + this.state.carrera1.id}>
                                 <h3 className="left-align titulo-carrera">
-                                    {this.state.carrera1.nombre}
+                                    Diseño Gráfico
                                 </h3>
                             </Link>
                             <h5 className="descripcion-carrera">{this.state.carrera1.descripcion}</h5>

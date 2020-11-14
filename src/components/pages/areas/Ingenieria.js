@@ -9,13 +9,13 @@ export class Ingenieria extends Component {
         id: 'ingenieria',
         imagen: require("../../assets/ingenieriaimg.jpg"),
         carrera1: {
-            id: 'Ingenieria agrónoma',
+            id: 'Ingagronoma',
             nombre: 'Ingenieria agrónoma',
             imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
             descripcion: 'El ingeniero agrónomo es el profesional de la ingeniería y la tecnología encargado de manejar los recursos naturales de manera racional para desarrollar el sector agropecuario, el medio rural y la industria agroalimentaria. Ellos hacen posible que los agricultores y los ganaderos trabajen de un modo más eficiente'
         },
         carrera2: {
-            id: 'Ingenieria industrial',
+            id: 'Ingindustrial',
             nombre: 'Ingenieria industrial',
             imagen: require('../../assets/ingenieria/industrialimg.jpg'),
             descripcion: 'La Ingeniería Industrial es por definición la rama de las ingenierías encargada del análisis, interpretación, comprensión, diseño, programación y control de sistemas productivos y logísticos con miras a gestionar, implementar y establecer estrategias de optimización con el objetivo de lograr el máximo rendimiento de los procesos de creación de bienes y/o la prestación de servicios.'

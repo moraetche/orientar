@@ -9,25 +9,25 @@ export class Ingenieria extends Component {
         id: 'medicina',
         imagen: require("../../assets/medicinaimg.jpg"),
         carrera1: {
-            id: 'Ciencias veterinarias',
+            id: 'Veterinaria',
             nombre: 'Ciencias veterinarias',
             imagen: require('../../assets/medicina/veterinariasimg.jpg'),
             descripcion: 'Ciencia médica que se dedica a prevenir, diagnosticar y curar las enfermedades de los animales. Así como también heridas y lesiones provocadas por diversos factores.'
         },
         carrera2: {
-            id: 'Bioquímica',
+            id: 'Bioquimica',
             nombre: 'Bioquímica',
             imagen: require('../../assets/medicina/bioquimicaimg.jpg'),
             descripcion: 'La Bioquímica es una ciencia básica dedicada al estudio de los constituyentes químicos de los seres vivos y a las transformaciones asociadas en el curso de la actividad vital.'
         },
         carrera3: {
-            id: 'Medicina',
+            id: 'Medicinacarrera',
             nombre: 'Medicina',
             imagen: require('../../assets/medicina/medicoimg.jpg'),
             descripcion: 'Ciencia que permite prevenir y curar las enfermedades del cuerpo humano.'
         },
         carrera4: {
-            id: 'Odontología',
+            id: 'Odontologia',
             nombre: 'Odontología',
             imagen: require('../../assets/medicina/odontologiaimg.jpg'),
             descripcion: 'La odontología también denominada estomatología, es una especialidad de la Medicina que se ocupa de la prevención, el diagnóstico y tratamiento de las enfermedades que afectan a cualquier parte de la estructura mandibular.'

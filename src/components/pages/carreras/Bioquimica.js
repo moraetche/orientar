@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
-import '../css/carreras.css';
+import '../../css/carreras.css';
 // import M from 'materialize-css'
-export class Carrera extends Component {
+export class Bioquimica extends Component {
 	state = {
 		titulo: null,
 	};
@@ -17,22 +17,25 @@ export class Carrera extends Component {
 			<div className='container'>
 				<div className='row'>
 					<div className='col m6 '>
-						<h2 className='blue-text text-darken-2'>{this.props.match.params.carrera}</h2>
+          <br></br>
+            <br></br>
+						<h2>Bioquímica</h2>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
 							eaque laudantium, in nisi est
 						</p>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
+						<li className= 'lista-de-info'>Item 1</li>
+						<li className= 'lista-de-info'>Item 2</li>
+						<li className= 'lista-de-info'>Item 3</li>
+						<li className= 'lista-de-info'>Item 4</li>
 					</div>
 					<div className='col m6'>
-						<img className='right' src='https://picsum.photos/300' alt='' />
+						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
 					</div>
 				</div>
 				<hr />
 				<div className='row'>
+          <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
@@ -40,6 +43,15 @@ export class Carrera extends Component {
 							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
 						</p>
 					</div>
+          <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
+					<div className='punteo'>
+						<div className='circle'></div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
+							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						</p>
+					</div>
+          <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
@@ -53,4 +65,4 @@ export class Carrera extends Component {
 	}
 }
 
-export default Carrera;
+export default Bioquimica;

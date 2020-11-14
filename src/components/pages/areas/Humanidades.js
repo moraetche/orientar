@@ -9,14 +9,14 @@ export class Humanidades extends Component {
         id: 'humanidades',
         imagen: require("../../assets/humanidadesimg.jpg"),
         carrera1: {
-            id: 'Filosofía',
-            nombre: 'Filosofía',
+            id: 'Filosofia',
+            nombre: 'Filosofia',
             imagen: require('../../assets/humanidades/filosofiaimg.jpg'),
             descripcion: 'La Filosofía es una disciplina que estudia y reflexiona constantemente sobre los enigmas constitutivos a la esencia del ser humano.'
         },
         carrera2: {
-            id: 'Psicología',
-            nombre: 'Psicología',
+            id: 'Psicologia',
+            nombre: 'Psicologia',
             imagen: require('../../assets/humanidades/psicologiaimg.jpg'),
             descripcion: 'La carrera de Psicología forma profesionales capaces de estudiar, comprender y analizar los actos,conductas y procesos mentales normales y anormales del ser humano por medio de la observación de sus acciones, reacciones, decisiones, comportamiento verbal, movimiento corporal y otros eventos observables así como mediante la aplicación de instrumentos científicos, para llegar a conclusiones y brindar diagnósticos y soluciones a problemas.'
         },
