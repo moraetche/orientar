@@ -5,7 +5,7 @@ import '../../css/carreras.css';
 export class Veterinaria extends Component {
 	state = {
 		titulo: null,
-		imagen: require('../../assets/medicina/veterinariaimg.jpg'),
+		imagen: require('../../assets/medicina/veterinariasimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
