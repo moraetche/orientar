@@ -5,6 +5,7 @@ import '../../css/carreras.css';
 export class Ingindustrial extends Component {
 	state = {
 		titulo: null,
+		imagen: require('../../assets/ingenieria/industrialimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
@@ -31,7 +32,7 @@ export class Ingindustrial extends Component {
 						<li className= 'lista-de-info'>Facultad de Ingeniería:Av. Las Heras 2214, C1127AAR, Ciudad Autónoma de Buenos Aires.</li>
 					</div>
 					<div className='col m6'>
-						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
+					<img className= "imgcarreras" src={this.state.imagen} alt="industrial" className="imgcarreras" />
 					</div>
 				</div>
 				<hr />
