@@ -39,23 +39,23 @@ export class Abogacia extends Component {
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li>
 							Ética y Ciudadanía.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li>
 							En primer lugar, hay que tener ganas de ayudar a un otro que se ve perjudicado. En segundo lugar, se tiene que aceptar que al estar a disposición de un otro, es decir que vos sos un intermediario para que se “haga justicia”. Hay que aceptar y entender los intereses y formas de tu cliente a pesar de que no siempre estés de acuerdo.
-						</p>
+							</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li>
 							Por el lado de la cursada, se va a tener que leer un montón. Fallos/resoluciones/códigos que se puede hacer un poco tedioso pero nos permite entender y ver la realidad social con otros ojos. Está buenísimo trabajar mientras se estudia porque se aprende de otra manera. Es muy diferente estudiar el “deber ser” con ver lo que pasa efectivamente en la realidad y además que trabajas con abogados generalmente con mucha experiencia y aprendes un montón.
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
