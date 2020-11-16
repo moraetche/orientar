@@ -60,10 +60,12 @@ export class Politicas extends Component {
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li className= 'contactos'>Item 1</li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
 						<li className= 'contactos'>Item 2</li>
-						<li className= 'contactos'>Item 3</li>
-						<li className= 'contactos'>Item 4</li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
 				</div>
 			</div>
 		);

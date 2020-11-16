@@ -24,10 +24,10 @@ export class Abogacia extends Component {
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
 							eaque laudantium, in nisi est
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+						<li className= 'lista-de-info'>Carga horaria total: 2.665 hs</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
+						<li className= 'lista-de-info'>Título intermedio: Bachiller Universitario/a en Derecho</li>
+						<li className= 'lista-de-info'>Título final: Abogado/a</li>
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -60,10 +60,12 @@ export class Abogacia extends Component {
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li className= 'contactos'>Item 1</li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
 						<li className= 'contactos'>Item 2</li>
-						<li className= 'contactos'>Item 3</li>
-						<li className= 'contactos'>Item 4</li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
 				</div>
 			</div>
 		);
