@@ -25,6 +25,7 @@ export class Politicas extends Component {
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 5</li>
 						<li className= 'lista-de-info'>Titulo Final: Licenciado/a en Ciencia Política</li>
+						<li className= 'lista-de-info'>Facultad de Ciencias Sociales: Santiago del Estero 1029, C1075AAU, Ciudad Autónoma de Buenos Aires.</li>
 						
 					</div>
 					<div className='col m6'>

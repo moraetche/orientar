@@ -25,6 +25,7 @@ export class Veterinaria extends Component {
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 7</li>
 						<li className= 'lista-de-info'>Titulo Final: Veterinario/a</li>
+						<li className= 'lista-de-info'>Facultad de Ciencias Veterinarias: Chorroarín 280, C1427CWO, Ciudad Autónoma de Buenos Aires.</li>
 						
 					</div>
 					<div className='col m6'>

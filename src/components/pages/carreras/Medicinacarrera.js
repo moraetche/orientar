@@ -25,6 +25,7 @@ export class Medicinacarrera extends Component {
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 7</li>
 						<li className= 'lista-de-info'>Título final: Medico/a</li>
+						<li className= 'lista-de-info'>Facultad de Medicina: Paraguay 2155, C1121ABG, Ciudad Autónoma de Buenos Aires.</li>
 						
 					</div>
 					<div className='col m6'>

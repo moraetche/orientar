@@ -26,6 +26,7 @@ export class Odontologia extends Component {
 						<li className= 'lista-de-info'>Carga horaria total: 5522</li>
 						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
 						<li className= 'lista-de-info'>Título final: Odontólogo/a</li>
+						<li className= 'lista-de-info'>Facultad de Odontología: Marcelo T. de Alvear 2142, C1122AAH Ciudad Autónoma de Buenos Aires.</li>
 						
 					</div>
 					<div className='col m6'>

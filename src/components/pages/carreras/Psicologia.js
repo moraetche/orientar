@@ -25,6 +25,8 @@ export class Psicologia extends Component {
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
 						<li className= 'lista-de-info'>Titulo Final: Licenciado/a en Psicología</li>
+						<li className= 'lista-de-info'>Facultad de Psicología: Av. Independencia 3065, C1225AAM, Ciudad Autónoma de Buenos Aires.</li>
+
 						
 					</div>
 					<div className='col m6'>
