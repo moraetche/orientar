@@ -21,7 +21,7 @@ export class Psicologia extends Component {
             <br></br>
 						<h2>Psicología</h2>
 						<p>
-							
+						La carrera de Psicología forma profesionales capaces de estudiar, comprender y analizar los actos,conductas y procesos mentales normales y anormales del ser humano por medio de la observación de sus acciones, reacciones, decisiones, comportamiento verbal, movimiento corporal y otros eventos observables así como mediante la aplicación de instrumentos científicos, para llegar a conclusiones y brindar diagnósticos y soluciones a problemas.
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
 						<li className= 'lista-de-info'>Titulo Final: Licenciado/a en Psicología</li>
@@ -59,6 +59,8 @@ El CBC lo pasa el 60%, y ese 40% que no lo pasa no es porque no es inteligente, 
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
+		  <li className= 'contactos'> mail consultas: soe@psi.uba.ar</li>
+						<li className= 'contactos'>Telefono consultas: (+54) 11 5287-3200</li>
             <li className= 'contactos'><a href="http://www.uba.ar/download/academicos/carreras/lic-psicologia.pdf">Link plan de estudios</a></li>
 						
             <li className= 'contactos'><a href="http://www.psi.uba.ar/estudiantes.php?var=tramites_administrativos/ingreso/index.php">Link Inscripcion</a></li>

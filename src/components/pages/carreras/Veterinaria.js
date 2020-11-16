@@ -21,7 +21,7 @@ export class Veterinaria extends Component {
             <br></br>
 						<h2>Ciencias veterinarias</h2>
 						<p>
-							
+						Ciencia médica que se dedica a prevenir, diagnosticar y curar las enfermedades de los animales. Así como también heridas y lesiones provocadas por diversos factores.
 						</p>
 						<li className= 'lista-de-info'>Duración estimada en años: 7</li>
 						<li className= 'lista-de-info'>Titulo Final: Veterinario/a</li>

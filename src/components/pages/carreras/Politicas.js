@@ -21,13 +21,11 @@ export class Politicas extends Component {
             <br></br>
 						<h2>Ciencias políticas</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+						La Ciencia Política es una ciencia social que se aboca al estudio y el análisis de las relaciones de poder, implícitas o explícitas, entre la autoridad y los individuos, los grupos, y las organizaciones; y las estructuras, procedimientos y procesos a través de los cuales se llega a las decisiones políticas y se desarrollan las interacciones entre los diferentes sistemas políticos.
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 5</li>
+						<li className= 'lista-de-info'>Titulo Final: Licenciado/a en Ciencia Política</li>
+						
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,33 +37,31 @@ export class Politicas extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Teoría política, teoría sociológica, historia.
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						La cantidad de bibliografía que iba a haber.
+
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						No atrasarse con las lecturas, prestar atención a lo que los profesores consideran clave
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-						<li className= 'contactos'>Item 2</li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/lic-psicologia.pdf">Link plan de estudios</a></li>
+						
+            <li className= 'contactos'><a href="http://www.sociales.uba.ar/ingresantes/">Link Inscripcion</a></li>
+            <li className= 'contactos'><a href="http://www.sociales.uba.ar/carreras/ciencia-politica/">Link Página carrera</a></li>
+			<li className= 'contactos'> mail consultas: polit@sociales.uba.ar</li>
+			<li className= 'contactos'>Telefono consultas: (+54) 11 5287-1500 Int. 71774</li>
 				</div>
 			</div>
 		);
