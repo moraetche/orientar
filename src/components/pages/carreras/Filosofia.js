@@ -22,8 +22,7 @@ export class Filosofia extends Component {
             <br></br>
 						<h2>Filosofía</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+						La Filosofía es una disciplina que estudia y reflexiona constantemente sobre los enigmas constitutivos a la esencia del ser humano.
 						</p>
 						<li className= 'lista-de-info'>Sede Facultad de Filosofía y Letras: Puán 480, C1406CQJ, Ciudad Autónoma de Buenos Aires.</li>
 						<li className= 'lista-de-info'>Duración estimada en años: 6</li>

@@ -23,8 +23,7 @@ export class Diseniografico extends Component {
             <br></br>
 						<h2>Diseño gráfico</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+						El diseño gráfico consiste en proyectar comunicaciones visuales destinadas a transmitir mensajes específicos a grupos sociales, con objetivos determinados. Esta actividad ayuda a optimizar las comunicaciones gráficas.
 						</p>
 						<li className= 'lista-de-info'>Sede Facultad de Arquitectura, Diseño y Urbanismo: Intendente Güiraldes 2160,  Pabellón III, C1428EGA, Ciudad Autónoma de Buenos Aires. Ciudad Universitaria.</li>
 						<li className= 'lista-de-info'>Carga horaria total: 2.852 hs</li>
