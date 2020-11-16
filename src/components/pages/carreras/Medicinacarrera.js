@@ -21,13 +21,11 @@ export class Medicinacarrera extends Component {
             <br></br>
 						<h2>Medicina</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+						Ciencia que permite prevenir y curar las enfermedades del cuerpo humano.
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 7</li>
+						<li className= 'lista-de-info'>Título final: Medico/a</li>
+						
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,33 +37,34 @@ export class Medicinacarrera extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Biología, Química.
+
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Que si lo elige sea con el corazón, la carrera es larga y dura, pero te alienta saber que un día vas a poder sanar muchos cuerpos. 
+También es importante destacar que la carrera tiene cosas que dan muchísima impresión, ya que en el primer año después del CBC, que es muy complicado, hay materias en las que se ven cuerpos reales bañados en formol por ejemplo, y si eso da impresión después lo que aparece en una guardia hospitalaria es diez veces peor.
+
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Mi consejo es que no se frustren si desaprueban, que sigan estudiando porque es una carrera que se recibe el que persevera y que siempre tenga el foco de porqué eligió esta carrera.
+
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-						<li className= 'contactos'>Item 2</li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li className= 'contactos'><a href="https://www.fmed.uba.ar/carreras/medicina/plan-de-estudios-plan-cs-286192">Link plan de estudios</a></li>
+						
+            <li className= 'contactos'><a href="https://www.fmed.uba.ar/carreras-y-tecnicaturas/ingresantes">Link Inscripcion</a></li>
+            <li className= 'contactos'><a href="https://www.fmed.uba.ar/carreras/medicina/informacion-general">Link Página carrera</a></li>
+            <li className= 'contactos'>Mail consultas: diralumnos@fmed.uba.ar</li>
+            <li className= 'contactos'>Telefono consultas: (+54) 11 5285-2800 </li>
 				</div>
 			</div>
 		);

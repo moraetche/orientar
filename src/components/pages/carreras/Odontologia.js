@@ -56,12 +56,12 @@ export class Odontologia extends Component {
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://odontologia.uba.ar/?page_id=2649#planestudios">Link plan de estudios</a></li>
+            <li className= 'contactos'><a href="http://odontologia.uba.ar/?page_id=2649#planestudios">Link plan de estudios</a></li>
 						
-            <li><a href="http://odontologia.uba.ar/?page_id=166">Link Inscripcion</a></li>
-            <li><a href="http://odontologia.uba.ar/?page_id=2649">link Página carrera</a></li>
-            <li>Mail consultas: info@odontologia.uba.ar</li>
-            <li>tel consultas: (54) 11 5287-6000</li>
+            <li className= 'contactos'><a href="http://odontologia.uba.ar/?page_id=166">Link Inscripcion</a></li>
+            <li className= 'contactos'><a href="http://odontologia.uba.ar/?page_id=2649">link Página carrera</a></li>
+            <li className= 'contactos'>Mail consultas: info@odontologia.uba.ar</li>
+            <li className= 'contactos'>Telefono consultas: (54) 11 5287-6000</li>
 				</div>
 			</div>
 		);
