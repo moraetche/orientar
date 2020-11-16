@@ -5,7 +5,7 @@ import '../../css/carreras.css';
 export class Ingagronoma extends Component {
 	state = {
 		titulo: null,
-		imagen: require('../../assets/ingeniera/agronomaimg.jpg'),
+		imagen: require('../../assets/ingenieria/agronomaimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
