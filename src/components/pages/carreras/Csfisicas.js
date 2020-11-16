@@ -5,6 +5,7 @@ import '../../css/carreras.css';
 export class Csfisicas extends Component {
 	state = {
 		titulo: null,
+    imagen: require('../../assets/exactas/fisicaimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
@@ -29,7 +30,7 @@ export class Csfisicas extends Component {
 						<li className= 'lista-de-info'>Título final: Profesorado en Ciencias Físicas</li>
 					</div>
 					<div className='col m6'>
-						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
+						<img src={this.state.imagen} alt="imagen ciencias fisicas" className="imgcarreras" />
 					</div>
 				</div>
 				<hr />

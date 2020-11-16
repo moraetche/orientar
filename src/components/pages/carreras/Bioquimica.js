@@ -5,6 +5,7 @@ import '../../css/carreras.css';
 export class Bioquimica extends Component {
 	state = {
 		titulo: null,
+    imagen: require('../../assets/medicina/bioquimicaimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
@@ -28,7 +29,7 @@ export class Bioquimica extends Component {
 						<li className= 'lista-de-info'>Título final: Bioquímico/a</li>
 					</div>
 					<div className='col m6'>
-						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
+						<img src={this.state.imagen} alt="imagen bioquímica" className="imgcarreras" />
 					</div>
 				</div>
 				<hr />
