@@ -41,21 +41,21 @@ export class Ingagronoma extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-						No encontramos cursante.
+						No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							No encontramos cursante.
+						No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-						No encontramos cursante.
+						No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
