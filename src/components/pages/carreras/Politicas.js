@@ -37,25 +37,22 @@ export class Politicas extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Teoría política, teoría sociológica, historia.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						La cantidad de bibliografía que iba a haber.
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						No atrasarse con las lecturas, prestar atención a lo que los profesores consideran clave
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="http://www.uba.ar/download/academicos/carreras/lic-psicologia.pdf">Link plan de estudios</a></li>

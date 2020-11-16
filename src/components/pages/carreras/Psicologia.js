@@ -38,28 +38,25 @@ export class Psicologia extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Filosofía, Biología, Psicología.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Lo importante es seguir el propio deseo y no el de la familia, de tu padres, de tus amigos, o lo que te de plata, no va por ahí. Hay que pensar bien qué es lo que uno desea y espera en la vida, y lo que lo hace feliz. Tenés que elegir algo que cuando te sientes a estudiar digas que copado lo que estoy estudiando o te guste lo que estás haciendo, ya que sino cualquier carrera se hace el doble de difícil.
 En la UBA nadie te está detrás avisándote de nada, entonces siempre hay que estar atento a todo y ser autodidacta.
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Hay que poner mucho de uno mismo, probablemente fracasen, y más en la UBA, y no está mal por lo que no hay que frustrarse. Siempre hay que tener en la cabeza el objetivo y que aunque cueste mucho va a valer la pena.
 El CBC lo pasa el 60%, y ese 40% que no lo pasa no es porque no es inteligente, sino porque no persevera. Un 3 o un 2 no define nuestra inteligencia así que a no frustrarse y a esforzarse mucho.
 
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
 		  <li className= 'contactos'> mail consultas: soe@psi.uba.ar</li>

@@ -37,26 +37,23 @@ export class Licenciaturaecon extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Matemática, Economía.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Antes de elegir la carrera tenés que estar seguro que es una carrera que te gusta, porque una carrera promedio en la UBA atraviesa las 30-35 materias, que son 35 materias de las cuales algunas te van a gustar y otras no, y en esos momentos en que te vayan mal y estés cursando materias que no te gustan lo único que te va a ayudar a seguir adelante es saber que la carrera, la meta a la que queres llegar, te gusta. Después la salida laboral va a venir, no me preocuparía tanto por eso como por que te guste la carrera.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Lo más importante es tener en claro que en los primeros años de la UBA y en el CBC vas a ser 1 alumno entre 120 o 200, entonces vas a perder la familiaridad que tenías en la secundaria con tus compañeros y con los profesores. Eso a veces te va a hacer sentir solo, lo fundamental es tratar de resistir eso y con el tiempo uno se va a ir haciendo compañeros y amigos para estudiar con ellos si es que avanzan al mismo ritmo en la carrera, pero en un principio la UBA no es lo más amigable con eso.
 Otro consejo muy importante es sobreponerse a la frustración. Va a haber frustraciones, va a haber materias en las que nos vaya mal y por ahí más de una vez o dos veces, materias y temas que no nos gusten y nos cuesten más, pero lo más importante es siempre seguir adelante y no frustrarse, no dejar las cosas, y siempre tener una motivación grande para estudiar lo que uno estudia, sino se hace muy difícil. Con motivación, con resiliencia y con resistencia a la frustración yo creo que se puede obtener cualquier cosa en la vida universitaria.
 
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
 		                <li className= 'contactos'><a href="http://www.uba.ar/download/academicos/carreras/lic-economia.pdf">Link plan de estudios</a></li>

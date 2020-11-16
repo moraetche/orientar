@@ -38,24 +38,21 @@ export class Odontologia extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Biología.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Le diría que lea el plan de estudios, ya que no son materias que son parecidas a las de secundaria. También que si tiene la oportunidad de charlar con algún odontólogo lo haga, y que siga el instagram del centro de estudiantes ya que ahí siempre suben información importante.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Mi consejo es que nunca hay que bajar los brazos, darse por vencido y creer que uno no puede. La facultad es un gran momento de aprendizaje personal y académico. También que el CBC no tiene nada que ver con la carrera después
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li className= 'contactos'><a href="http://odontologia.uba.ar/?page_id=2649#planestudios">Link plan de estudios</a></li>

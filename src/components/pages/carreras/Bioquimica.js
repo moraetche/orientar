@@ -36,24 +36,21 @@ export class Bioquimica extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Quimica y Biologia.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Hay que dedicarle mucho tiempo y es muy difícil trabajar a la misma vez.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Los teóricos son muy importantes.
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="http://app.ffyb.uba.ar/doc/Esquema_Plan_Bioqu%C3%ADmica.pdf">Link plan de estudios</a></li>

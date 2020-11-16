@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  
 }
 .punteo p {
 	font-size: 20px;
@@ -29,10 +30,4 @@
 
 .lista-de-info{
   font-size: 25px;
-}
-.circle {
-    width: 20px;
-    height: 20px;
-    background-color: #ffff;
-    display: inline-block;
 }

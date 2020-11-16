@@ -35,26 +35,23 @@ export class Filosofia extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Filosofía, Historia, Ética y Ciudadanía
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Antes de elegir esta carrera o cualquiera, yo le diría que estudie una carrera que sea lo más parecido a lo que realmente le apasiona, lo que más le gusta hacer en su tiempo libre. Te tiene que gustar lo que estás haciendo porque si no lo disfrutamos no sirve. Tampoco recomiendo estudiar carreras por presión social o herencia familiar porque eso va a causar que sigas algo que no te guste y eso arruina al individuo. 
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Hay que saber que la universidad es para pocos, es un esquema de estudio y de aprendizaje al que pocos sobreviven. No es para ir a perder el tiempo, no es para ir a tantear o probar, sino que tiene que entrar el que está decidido lo que va a hacer porque sino va a ir, hacer un año, y va a dejar. Terminar la carrera universitaria implica una gran, gran cuota de sacrificio, de renuncia a muchas cosas, de tratar de mantener las cosas estables, de no entrar en crisis o tratar de que las crisis no nos pasen por arriba, de mucho tiempo para todas las lecturas que se necesitan, y tolerar la frustración de cuando estudias mucho y te reprueban.
 
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="http://www.uba.ar/download/academicos/carreras/lic-filosofia.pdf">Link plan de estudios</a></li>

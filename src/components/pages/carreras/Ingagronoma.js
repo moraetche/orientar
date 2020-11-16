@@ -39,24 +39,21 @@ export class Ingagronoma extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						No conseguimos cursante que pueda proveer esta información.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						No conseguimos cursante que pueda proveer esta información.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						No conseguimos cursante que pueda proveer esta información.
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
 		                <li className= 'contactos'><a href="https://www.agro.uba.ar/sites/default/files/carreras/agro_plan_2017_julio_19.pdf">Link plan de estudios</a></li>

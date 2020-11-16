@@ -37,24 +37,21 @@ export class Csfisicas extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Matemática y Física
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							No conseguimos cursante que pueda proveer esta información.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							No conseguimos cursante que pueda proveer esta información.
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="https://www.df.uba.ar/es/futuros-estudiantes/guia-para-el-estudiante">Link plan de estudios</a></li>

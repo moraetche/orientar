@@ -36,27 +36,24 @@ export class Veterinaria extends Component {
 				<hr />
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
-					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Química y Biología.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
-					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Hay que  tener en cuenta que la salida laboral es muy variada, desde clínica de animales pequeños, grandes, animales silvestres, producción, investigación e incluso salud pública y más.
 Es una carrera hermosa de estudiar, con materias muy diversas y de diferente complejidad
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
-					<div className='punteo'>
 						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Vas a poder, relajá que todo se aprende, y se aprende a estudiar que a veces es lo más difícil. Es importante entender que se pueden cometer errores y no hay frustrarse rápido y encontrar un grupo de estudio es clave, ayuda a estudiar y a pasar mucho mejor el tiem
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
                         

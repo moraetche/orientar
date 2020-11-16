@@ -38,24 +38,21 @@ export class Diseniografico extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Diseño, Morfología y Tipografía.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 							Lo cara que iba a ser.
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
-							Arranca con los trabajos siempre lo antes posible, mantené el trabajo clase a clase porque hace la diferencia a la hora de la entrega, y no tengas miedo de innovar.
-						</p>
+						<li className= 'punteo'>
+							Arranca con los trabajos siempre lo antes posible, mantené el trabajo clase aliclase porque hace la diferencia a la hora de la entrega, y no tengas miedo de innovar.
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li><a href="http://www.fadu.uba.ar/categoria/246-nuevo-plan">Link plan de estudios</a></li>

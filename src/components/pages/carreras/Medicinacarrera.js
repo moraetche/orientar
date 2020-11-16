@@ -37,28 +37,25 @@ export class Medicinacarrera extends Component {
 				<div className='row'>
           <h4 className= 'opiniones'>¿Qué materias de secundaria son centrales para la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Biología, Química.
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Que si lo elige sea con el corazón, la carrera es larga y dura, pero te alienta saber que un día vas a poder sanar muchos cuerpos. 
 También es importante destacar que la carrera tiene cosas que dan muchísima impresión, ya que en el primer año después del CBC, que es muy complicado, hay materias en las que se ven cuerpos reales bañados en formol por ejemplo, y si eso da impresión después lo que aparece en una guardia hospitalaria es diez veces peor.
 
-						</p>
+						</li>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
-						<div className='circle'></div>
-						<p>
+						<li className= 'punteo'>
 						Mi consejo es que no se frustren si desaprueban, que sigan estudiando porque es una carrera que se recibe el que persevera y que siempre tenga el foco de porqué eligió esta carrera.
 
-						</p>
+						</li>
 					</div>
           <h6> Donde contactar: </h6>
             <li className= 'contactos'><a href="https://www.fmed.uba.ar/carreras/medicina/plan-de-estudios-plan-cs-286192">Link plan de estudios</a></li>
