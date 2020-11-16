@@ -21,13 +21,12 @@ export class Csfisicas extends Component {
             <br></br>
 						<h2>Ciencias físicas</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+							La Física tiene como objetivo principal comprender, teorizar y experimentar sobre el universo y los diferentes fenómenos que en él se manifiestan.
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+            <li className= 'lista-de-info'>Sede Facultad de Ciencias Exactas y Naturales: Intendente Güiraldes 2160,  Pabellón III, C1428EGA, Ciudad Autónoma de Buenos Aires. Ciudad Universitaria.</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
+						<li className= 'lista-de-info'>Título intermedio: Asistente de Investigación en Física</li>
+						<li className= 'lista-de-info'>Título final: Profesorado en Ciencias Físicas</li>
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,33 +38,29 @@ export class Csfisicas extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							No conseguimos cursante que pueda proveer esta información.
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-						<li className= 'contactos'>Item 2</li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="https://www.df.uba.ar/es/futuros-estudiantes/guia-para-el-estudiante">Link plan de estudios</a></li>
+            <li><a href="https://exactas.uba.ar/inscripcion-ingresantes/">Link inscripción</a></li>
+            <li><a href="https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-fisicas/">Link página de carrera</a></li>
+            <li>Mail de consultas: mailto:academ@df.uba.ar</li>
+            <li>Teléfono de consultas: (+54) 11 5285-7565/7566</li>
 				</div>
 			</div>
 		);

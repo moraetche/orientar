@@ -21,13 +21,11 @@ export class Bioquimica extends Component {
             <br></br>
 						<h2>Bioquímica</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+							La Bioquímica es una ciencia básica dedicada al estudio de los constituyentes químicos de los seres vivos y a las transformaciones asociadas en el curso de la actividad vital.
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+            <li className= 'lista-de-info'>Sede Facultad de Farmacia y Bioquímica: Junín 954/6, C1113AAD, Ciudad Autónoma de Buenos Aires.</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 5,5 años</li>
+						<li className= 'lista-de-info'>Título final: Bioquímico/a</li>
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,33 +37,29 @@ export class Bioquimica extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Quimica y Biologia.
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Hay que dedicarle mucho tiempo y es muy difícil trabajar a la misma vez.
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Los teóricos son muy importantes.
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-						<li className= 'contactos'>Item 2</li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://app.ffyb.uba.ar/doc/Esquema_Plan_Bioqu%C3%ADmica.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.ffyb.uba.ar/ALUMNOS/ingresantes?es">Link inscripcion</a></li>
+            <li><a href="http://www.ffyb.uba.ar/secretaria-academica/bioquimica-2586?es">Link página de carrera</a></li>
+            <li>Mail consultas: defilo@filo.uba.ar</li>
+            <li>Teléfono consultas: (+54) 11 5287-2826</li>
 				</div>
 			</div>
 		);

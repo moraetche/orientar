@@ -24,10 +24,8 @@ export class Filosofia extends Component {
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
 							eaque laudantium, in nisi est
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+						<li className= 'lista-de-info'>Sede Facultad de Filosofía y Letras: Puán 480, C1406CQJ, Ciudad Autónoma de Buenos Aires.</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 6</li>
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,33 +37,31 @@ export class Filosofia extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Filosofía, Historia, Ética y Ciudadanía
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Antes de elegir esta carrera o cualquiera, yo le diría que estudie una carrera que sea lo más parecido a lo que realmente le apasiona, lo que más le gusta hacer en su tiempo libre. Te tiene que gustar lo que estás haciendo porque si no lo disfrutamos no sirve. Tampoco recomiendo estudiar carreras por presión social o herencia familiar porque eso va a causar que sigas algo que no te guste y eso arruina al individuo. 
+
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+							Hay que saber que la universidad es para pocos, es un esquema de estudio y de aprendizaje al que pocos sobreviven. No es para ir a perder el tiempo, no es para ir a tantear o probar, sino que tiene que entrar el que está decidido lo que va a hacer porque sino va a ir, hacer un año, y va a dejar. Terminar la carrera universitaria implica una gran, gran cuota de sacrificio, de renuncia a muchas cosas, de tratar de mantener las cosas estables, de no entrar en crisis o tratar de que las crisis no nos pasen por arriba, de mucho tiempo para todas las lecturas que se necesitan, y tolerar la frustración de cuando estudias mucho y te reprueban.
+
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-						<li className= 'contactos'>Item 2</li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
-            <li><a href="http://www.uba.ar/download/academicos/carreras/abogacia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://www.uba.ar/download/academicos/carreras/lic-filosofia.pdf">Link plan de estudios</a></li>
+            <li><a href="http://academica.filo.uba.ar/departamento-de-admisi%C3%B3n-matr%C3%ADcula-y-estad%C3%ADstica">Link inscripción</a></li>
+            <li><a href="http://filosofia.filo.uba.ar/">Link página carrera</a></li>
+            <li>Mail de consultas: mailto:defilo@filo.uba.ar</li>
+            <li>Teléfono de consultas: (+54) 11 5287-2826</li>
 				</div>
 			</div>
 		);
