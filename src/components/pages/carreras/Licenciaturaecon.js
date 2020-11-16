@@ -5,6 +5,7 @@ import '../../css/carreras.css';
 export class Licenciaturaecon extends Component {
 	state = {
 		titulo: null,
+		imagen: require('../../assets/economicas/economiaimg.jpg'),
 	};
 	chequearInformacion = () => {
 		//aca agarrariamos la info de la base de datos y despues la guardamos en el state
@@ -29,7 +30,7 @@ export class Licenciaturaecon extends Component {
 						<li className= 'lista-de-info'>Facultad de Ciencias Exactas y Naturales: Intendente Güiraldes 2160,  Pabellón III, C1428EGA, Ciudad Autónoma de Buenos Aires.</li>
 					</div>
 					<div className='col m6'>
-						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
+					<img className= "imgcarreras" src={this.state.imagen} alt="imagen economia" className="imgcarreras" />
 					</div>
 				</div>
 				<hr />
