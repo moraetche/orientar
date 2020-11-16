@@ -21,14 +21,11 @@ export class Veterinaria extends Component {
             <br></br>
 						<h2>Ciencias veterinarias</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
-							eaque laudantium, in nisi est
+							
 						</p>
-						<li className= 'lista-de-info'>Duracion de la carrera: 7 años</li>
+						<li className= 'lista-de-info'>Duración estimada en años: 7</li>
 						<li className= 'lista-de-info'>Titulo Final: Veterinario/a</li>
-						<li className= 'lista-de-info'><a href="http://www.uba.ar/download/academicos/carreras/csveterinarias.pdf">Link plan de estudios </a></li>
-						<li className= 'lista-de-info'><a href="http://www.fvet.uba.ar/?q=ingresantesRequisitos#ing_vet">Link inscrpccion</a></li>
-						<li className= 'lista-de-info'><a href="http://www.fvet.uba.ar/?q=carrerasGrado#veterinaria">Link pagina carrera</a></li>
+						
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -63,6 +60,9 @@ Es una carrera hermosa de estudiar, con materias muy diversas y de diferente com
                         
 						<li className= 'contactos'> mail consultas: informes@fvet.uba.ar</li>
 						<li className= 'contactos'>Telefono consultas: (+54) 11 5287-2000</li>
+						<li className= 'contactos'><a href="http://www.uba.ar/download/academicos/carreras/csveterinarias.pdf">Link plan de estudios </a></li>
+						<li className= 'contactos'><a href="http://www.fvet.uba.ar/?q=ingresantesRequisitos#ing_vet">Link inscrpccion</a></li>
+						<li className= 'contactos'><a href="http://www.fvet.uba.ar/?q=carrerasGrado#veterinaria">Link pagina carrera</a></li>
 						
 				</div>
 			</div>
