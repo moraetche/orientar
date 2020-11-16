@@ -24,10 +24,11 @@ export class Veterinaria extends Component {
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam cupiditate delectus labore ratione
 							eaque laudantium, in nisi est
 						</p>
-						<li className= 'lista-de-info'>Item 1</li>
-						<li className= 'lista-de-info'>Item 2</li>
-						<li className= 'lista-de-info'>Item 3</li>
-						<li className= 'lista-de-info'>Item 4</li>
+						<li className= 'lista-de-info'>Duracion de la carrera: 7 años</li>
+						<li className= 'lista-de-info'>Titulo Final: Veterinario/a</li>
+						<li className= 'lista-de-info'><a href="http://www.uba.ar/download/academicos/carreras/csveterinarias.pdf">Link plan de estudios </a></li>
+						<li className= 'lista-de-info'><a href="http://www.fvet.uba.ar/?q=ingresantesRequisitos#ing_vet">Link inscrpccion</a></li>
+						<li className= 'lista-de-info'><a href="http://www.fvet.uba.ar/?q=carrerasGrado#veterinaria">Link pagina carrera</a></li>
 					</div>
 					<div className='col m6'>
 						<img className='imgcarreras' src='https://picsum.photos/300' alt='' />
@@ -39,31 +40,30 @@ export class Veterinaria extends Component {
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Química y Biología.
 						</p>
 					</div>
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Hay que  tener en cuenta que la salida laboral es muy variada, desde clínica de animales pequeños, grandes, animales silvestres, producción, investigación e incluso salud pública y más.
+Es una carrera hermosa de estudiar, con materias muy diversas y de diferente complejidad
+
 						</p>
 					</div>
           <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 					<div className='punteo'>
 						<div className='circle'></div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quas ipsam quo architecto libero
-							temporibus? Nihil vitae ex accusantium ab rerum magnam, aut, hic assumenda, modi possimus nam fuga in?
+						Vas a poder, relajá que todo se aprende, y se aprende a estudiar que a veces es lo más difícil. Es importante entender que se pueden cometer errores y no hay frustrarse rápido y encontrar un grupo de estudio es clave, ayuda a estudiar y a pasar mucho mejor el tiem
 						</p>
 					</div>
           <h6> Donde contactar: </h6>
-            <li className= 'contactos'>Item 1</li>
-						<li className= 'contactos'>Item 2</li>
-						<li className= 'contactos'>Item 3</li>
-						<li className= 'contactos'>Item 4</li>
+                        
+						<li className= 'contactos'> mail consultas: informes@fvet.uba.ar</li>
+						<li className= 'contactos'>Telefono consultas: (+54) 11 5287-2000</li>
+						
 				</div>
 			</div>
 		);
