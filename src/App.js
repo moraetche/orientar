@@ -8,7 +8,8 @@ import Footer from './components/layout/Footer'
 
 //PAGES
 import Home from './components/pages/Home'
-import Area from './components/pages/Area'
+import Notfound from './components/pages/Notfound'
+// import Area from './components/pages/Area'
 
 //AREAS
 import Ingenieria from './components/pages/areas/Ingenieria'
@@ -51,6 +52,7 @@ export class App extends Component {
         </>
         <Switch>
           <Route exact path="/" component={Home} />
+          
           <Route exact path="/arquitectura" component={Arquitectura} />
           <Route exact path="/arquitectura/Diseniografico" component={Diseniografico} />
 
@@ -84,8 +86,10 @@ export class App extends Component {
           <Route exact path="/sociales" component={Sociales} />
           <Route exact path="/sociales/Abogacia" component={Abogacia} />
           <Route exact path="/sociales/Politicas" component={Politicas} />
+          
+          <Route exact path="/*" component={Notfound} />
 
-          <Route exact path="/:area" component={Area} />
+          {/*<Route exact path="/:area" component={Area} />*/}
         </Switch>
         <Footer />
       </BrowserRouter>

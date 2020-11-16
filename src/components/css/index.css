@@ -12,3 +12,11 @@ br, hr{
 .navbar-orientar{
   width: 150px!important;
 }
+.btn-volver{
+  background: #081B37;
+  border-radius: 20px;
+}
+.btn-volver:hover{
+  background: #0f346c;
+  border-radius: 20px;
+}
