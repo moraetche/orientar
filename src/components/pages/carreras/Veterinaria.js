@@ -40,21 +40,22 @@ export class Veterinaria extends Component {
 						<li className= 'punteo'>
 						Química y Biología.
 						</li>
-					</div>
+				
           <h4 className= 'opiniones'>¿Qué te hubiera gustado saber antes de empezar/elegir la carrera?/Que le dirías a alguien antes de elegir la carrera?</h4>
 						<div className='circle'></div>
 						<li className= 'punteo'>
-						Hay que  tener en cuenta que la salida laboral es muy variada, desde clínica de animales pequeños, grandes, animales silvestres, producción, investigación e incluso salud pública y más.
-Es una carrera hermosa de estudiar, con materias muy diversas y de diferente complejidad
+						  Hay que  tener en cuenta que la salida laboral es muy variada, desde clínica de animales pequeños, grandes, animales silvestres, producción, investigación e incluso salud pública y más.
+                          Es una carrera hermosa de estudiar, con materias muy diversas y de diferente complejidad
 
 						</li>
 					</div>
-          <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
+                    <h4 className= 'opiniones'>Consejo para los que empiezan</h4>
 						<div className='circle'></div>
 						<li className= 'punteo'>
 						Vas a poder, relajá que todo se aprende, y se aprende a estudiar que a veces es lo más difícil. Es importante entender que se pueden cometer errores y no hay frustrarse rápido y encontrar un grupo de estudio es clave, ayuda a estudiar y a pasar mucho mejor el tiem
 						</li>
-					</div>
+						
+					
           <h6> Donde contactar: </h6>
                         
 						<li className= 'contactos'> mail consultas: informes@fvet.uba.ar</li>
@@ -64,7 +65,8 @@ Es una carrera hermosa de estudiar, con materias muy diversas y de diferente com
 						<li className= 'contactos'><a href="http://www.fvet.uba.ar/?q=carrerasGrado#veterinaria">Link pagina carrera</a></li>
 						
 				</div>
-			</div>
+			
+			
 		);
 	}
 }
