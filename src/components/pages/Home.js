@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
 import '../css/home.css'
+import './Anim.js'
 import M from 'materialize-css'
 import {Link} from 'react-router-dom'
 export class Home extends Component {
@@ -13,6 +13,22 @@ export class Home extends Component {
     render() {
         return (
             <div className="home" >
+                <div className="intro-anim">
+            <div className="intro-text-anim">
+                <h1 className="hide-anim">
+                    <span className="text-anim">Sample text text</span>
+                </h1>
+                <h1 className="hide-anim">
+                    <span className="text-anim">Sample text</span>
+                </h1>
+                <h1 className="hide-anim">
+                    <span className="text-anim">sample.</span>
+                </h1>
+            </div>
+        </div>
+        <div className="slider-anim">
+            
+        </div>
                 <div class="slider slider-home sl-home">
                     <ul class="slides slider-home">
                         <li>
