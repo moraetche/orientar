@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import gsap from "gsap"
+import gsap from 'gsap'
 import '../css/home.css'
-import './Anim.js'
+import {Anim} from './Anim.js'
 import M from 'materialize-css'
 import {Link} from 'react-router-dom'
 export class Home extends Component {
