@@ -9,9 +9,6 @@ export class Home extends Component {
         var elems = document.querySelectorAll('.slider');
         var instances = M.Slider.init(elems, options);
         options = instances;
-    }
-    render() {
-        let animLanding = useRef(null);
         useEffect(()=>{
             const tl = gsap.timeline({ defaults: {ease: "power1.out"}});
 
@@ -19,6 +16,10 @@ export class Home extends Component {
             tl.to(".slider-anim",{y: "-100%", duration: 1.5});
             tl.to(".intro-anim", {y:"-100%", duration: 1}, "-=1");
         }, [])
+    }
+    render() {
+        
+       
             
         
         return (
