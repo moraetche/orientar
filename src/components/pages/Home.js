@@ -14,10 +14,10 @@ export class Home extends Component {
         
         return (
             
-            <div className="home" >
+         <div className="home" >
                 <Anim />
-                <div className="intro-anim">
-            <div className="intro-text-anim">
+             <div className="intro-anim">
+              <div className="intro-text-anim">
                 <h1 className="hide-anim">
                     <span className="text-anim">Sample text text</span>
                 </h1>
@@ -27,11 +27,11 @@ export class Home extends Component {
                 <h1 className="hide-anim">
                     <span className="text-anim">sample.</span>
                 </h1>
-            </div>
-        </div>
-        <div className="slider-anim">
+              </div>
+             </div>
+                <div className="slider-anim">
             
-        </div>
+               </div>
                 <div class="slider slider-home sl-home">
                     <ul class="slides slider-home">
                         <li>
