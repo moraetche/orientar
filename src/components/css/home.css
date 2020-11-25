@@ -40,8 +40,8 @@
   color: white;
 }
 /* ACA PARA ABAJO ANIMACIONES HECHAS POR SANCHO */
-.intro-anim{
-
+/* .intro-anim{
+  background: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -72,4 +72,4 @@
 .hide-anim span{
   transform: translateY(100%);
   display: inline-block;
-}
+} */

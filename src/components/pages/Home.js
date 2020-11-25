@@ -15,7 +15,7 @@ export class Home extends Component {
         return (
             
          <div className="home" >
-                <Anim />
+                {/* <Anim />
              <div className="intro-anim">
               <div className="intro-text-anim">
                 <h1 className="hide-anim">
@@ -31,7 +31,7 @@ export class Home extends Component {
              </div>
                 <div className="slider-anim">
             
-               </div>
+               </div> */}
                 <div class="slider slider-home sl-home">
                     <ul class="slides slider-home">
                         <li>
