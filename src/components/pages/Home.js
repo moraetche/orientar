@@ -13,6 +13,7 @@ export class Home extends Component {
     render() {
         return (
             <div className="home" >
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
                 <div className="intro-anim">
             <div className="intro-text-anim">
                 <h1 className="hide-anim">
