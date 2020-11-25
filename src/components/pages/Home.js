@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import gsap from 'gsap'
 import '../css/home.css'
 import {Anim} from './Anim.js'
 import M from 'materialize-css'

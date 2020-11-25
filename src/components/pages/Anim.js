@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import gsap from "gsap"
 function Anim(){
     const tl = gsap.timeline({ defaults: {ease: "power1.out"}});
