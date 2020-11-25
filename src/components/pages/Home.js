@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../css/home.css'
-import {Anim} from './Anim.js'
+import Anim from './Anim.js'
 import M from 'materialize-css'
 import {Link} from 'react-router-dom'
 export class Home extends Component {
@@ -11,9 +11,11 @@ export class Home extends Component {
         options = instances;
     }
     render() {
+        
         return (
+            
             <div className="home" >
-                
+                <Anim />
                 <div className="intro-anim">
             <div className="intro-text-anim">
                 <h1 className="hide-anim">
