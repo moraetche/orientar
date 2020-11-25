@@ -8,6 +8,7 @@ function Anim(){
     tl.to(".intro-anim", {y:"-100%", duration: 1}, "-=1");
     // tl.fromTo("nav", {opacity: 0},{opacity:1, duration:1} );
     // tl.fromTo("home", {opacity: 0},{opacity:1, duration:1}, "-=1" );
+    return null;
 }
 
 export default Anim
