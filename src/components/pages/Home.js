@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, useRef, useEffect } from 'react'
 import '../css/home.css'
-import Anim from './Anim.js'
+import gsap from "gsap"
 import M from 'materialize-css'
 import {Link} from 'react-router-dom'
 export class Home extends Component {
@@ -11,10 +11,20 @@ export class Home extends Component {
         options = instances;
     }
     render() {
+        let animLanding = useRef(null);
+        useEffect(()=>{
+            const tl = gsap.timeline({ defaults: {ease: "power1.out"}});
+
+            tl.to(".text-anim", {y: "0%", duration: 1, stagger: 0.25});
+            tl.to(".slider-anim",{y: "-100%", duration: 1.5});
+            tl.to(".intro-anim", {y:"-100%", duration: 1}, "-=1");
+        }, [])
+            
         
         return (
             
          <div className="home" >
+
                 {/* <Anim />
              <div className="intro-anim">
               <div className="intro-text-anim">
